@@ -15,7 +15,8 @@
 
 - Single port or range
 
-| Standard Ports |
+| Standard Ports | Description |
+| ------------- | ------------|
 | Name | Port|
 | FTP | 21 |
 | SSH/SFTP | 22 |
