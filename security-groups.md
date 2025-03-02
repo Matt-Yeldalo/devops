@@ -14,10 +14,9 @@
 ## Ports
 
 - Single port or range
-
-| Standard Ports | Description |
+Standard Ports
+| Name | Port | 
 | ------------- | ------------|
-| Name | Port|
 | FTP | 21 |
 | SSH/SFTP | 22 |
 | HTTP | 80 |
