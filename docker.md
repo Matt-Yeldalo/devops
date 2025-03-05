@@ -19,5 +19,5 @@ you define everything in three files: Dockerfile, docker-compose.yml, and .docke
 2. run following commands to restart daemon and docker service
 
 ```
-sudo systemctl daemon-reload && systemctl restart docker
+    sudo systemctl daemon-reload && systemctl restart docker
 ```
