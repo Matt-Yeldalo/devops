@@ -17,4 +17,7 @@ you define everything in three files: Dockerfile, docker-compose.yml, and .docke
     nameserver 8.8.4.4
 
 2. run following commands to restart daemon and docker service
-        `sudo systemctl daemon-reload && systemctl restart docker`
+
+```
+sudo systemctl daemon-reload && systemctl restart docker
+```
