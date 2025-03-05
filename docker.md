@@ -12,15 +12,9 @@ you define everything in three files: Dockerfile, docker-compose.yml, and .docke
 
 ## Troubleshooting
 
-
-    Open config file sudo nano /etc/resolv.conf and add the following under existing nameservers
-
-    nameserver 8.8.8.8
-
+1. Open config file sudo nano /etc/resolv.conf and add the following under existing nameservers
+    nameserver 8.8.8.8 
     nameserver 8.8.4.4
 
-    run following commands to restart daemon and docker service
-
-    sudo systemctl daemon-reload
-
-    sudo systemctl restart docker
+2. run following commands to restart daemon and docker service
+    `sudo systemctl daemon-reload && systemctl restart docker`
